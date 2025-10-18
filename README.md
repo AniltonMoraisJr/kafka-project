@@ -47,7 +47,7 @@ O projeto é composto pelos seguintes módulos:
 ## Configuração do Ambiente
 
 ### Pré-requisitos
-- Java SDK 24
+- Java SDK 21
 - Docker e Docker Compose
 - Quarkus Framework
 - Jakarta EE
