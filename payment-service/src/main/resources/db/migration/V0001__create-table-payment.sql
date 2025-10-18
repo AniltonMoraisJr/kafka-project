@@ -1,0 +1,10 @@
+CREATE TABLE Payment (
+    id BIGINT PRIMARY KEY,
+    value DECIMAL(9, 2) NOT NULL,
+    status ENUM('CRIADO', 'CONFIRMADO', 'CANCELADO') NOT NULL,
+    orderId BIGINT NOT NULL
+);
+
+CREATE TABLE Payment_SEQ (
+    next_val BIGINT
+);
